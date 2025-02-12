@@ -206,6 +206,8 @@ int main() {
         EndDrawing();
     }
 
+    UnloadSound(bloop);
+    CloseAudioDevice();
     CloseWindow();
     return 0;
 }
